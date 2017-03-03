@@ -8,10 +8,13 @@ alias bpro="at ~/.bash_profile"
 # Node
 alias nd="node debug"
 
+alias s="sudo"
+
 # Github commands
 alias gs="git status"
 alias ga="git add ."
 alias gc="git commit"
+alias gcl="git clone"
 alias gl="git log"
 alias gck="git checkout"
 alias gpum="git pull upstream master"
@@ -28,8 +31,10 @@ alias gprum="git pull --rebase upstream master"
 alias gpom="git push origin master"
 alias gr="git remote -v"
 alias grau="git remote add upstream"
+alias grao="git remote add origin"
 alias glo="git log --pretty=oneline"
 alias glu="git log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+alias gi="git init"
 
 # Docker
 alias bd="boot2docker"
